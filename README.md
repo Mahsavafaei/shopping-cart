@@ -1,8 +1,35 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Shopping Cart Project
 
-Currently, two official plugins are available:
+This project is a simple shopping cart page where users can view their items, adjust the quantity of each item, and apply discount codes. Users can also see the final total of the cart after discount application and tax deduction.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- Quantity Adjustment: Users can increase or decrease the quantity of each item.
+- Discount Code: Allows users to enter a discount code and apply it to the total.
+- Tax Deduction: After applying the discount, the tax amount is deducted from the total.
+- Total Price Update: The total price for each item and the cart’s final total are updated automatically.
+
+## Prerequisites
+
+To run this project, you need Node.js and npm installed.
+
+- [Node.js](https://nodejs.org/) (version 14 or above)
+- [npm](https://www.npmjs.com/) (version 6 or above)
+
+## Installation
+
+To install and run the project, follow these steps:
+
+`bash
+# Clone the repository
+git clone https://github.com/your-username/your-repository-name.git
+
+# Navigate to the project directory
+cd your-repository-name
+
+# Install dependencies
+npm install
+
+
